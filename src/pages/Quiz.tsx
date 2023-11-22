@@ -1,4 +1,4 @@
-import Ploblem from "../Ploblem";
+import Ploblem from "../component/Ploblem";
 import { useState } from "react";
 import { motion } from "framer-motion";
 

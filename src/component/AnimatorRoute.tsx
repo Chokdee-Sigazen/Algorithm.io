@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Quiz from "./pages/Quiz";
+import HomePage from "../pages/HomePage";
+import Quiz from "../pages/Quiz";
 import { AnimatePresence } from "framer-motion";
 const AnimatorRoute = () => {
   const location = useLocation();
