@@ -13,7 +13,7 @@ function HomePage() {
       video: [
         {
           topic: "Binary Search",
-          src: "/Algorithm/Searching/Binary_Search.mp4",
+          src: "/Algorithm.io/Algorithm/Searching/Binary_Search.mp4",
         },
       ],
     },
@@ -23,11 +23,11 @@ function HomePage() {
       video: [
         {
           topic: "Bubble Sort",
-          src: "/Algorithm/Sorting/Bubble Sort.mp4",
+          src: "/Algorithm.io/Algorithm/Sorting/Bubble Sort.mp4",
         },
         {
           topic: "Selection Sort",
-          src: "/Algorithm/Sorting/Selection Sort.mp4",
+          src: "/Algorithm.io/Algorithm/Sorting/Selection Sort.mp4",
         },
       ],
     },
@@ -37,7 +37,7 @@ function HomePage() {
       video: [
         {
           topic: "Merge Sort",
-          src: "/Algorithm/Sorting/Merge Sort.mp4",
+          src: "/Algorithm.io/Algorithm/Sorting/Merge Sort.mp4",
         },
       ],
     },
