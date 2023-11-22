@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~video-react/styles/scss/video-react";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  color:whitesmoke;
+  font-family: 'Mitr', sans-serif;
+  outline: none;
+}
+
+@keyframes expandRight {
+  0% {
+    max-width: 0;
+  }
+  100% {
+    max-width: 100%;
+  }
+}
+
+.custom-transition {
+  animation: expandRight 0.5s ease-in-out;
+}
