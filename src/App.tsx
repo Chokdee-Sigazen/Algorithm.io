@@ -1,26 +1,20 @@
 import "./App.css";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import NavBar from "./component/TopBar";
 import Footer from "./component/Footer";
-import { Routes, Route, useLocation } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Quiz from "./pages/Quiz";
+import AnimatorRoute from "./AnimatorRoute";
 
 function App() {
-  const location = useLocation();
   return (
-    <HashRouter>
+    <BrowserRouter>
       <NavBar />
       <main>
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/quiz" element={<Quiz />} />
-        </Routes>
+        <AnimatorRoute />
       </main>
       <footer>
         <Footer />
       </footer>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
