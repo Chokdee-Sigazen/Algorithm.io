@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const SlideTransition = (OgComponent) => {
+const SlideTransition = (OgComponent: any) => {
   return (
     <OgComponent>
       <motion.div

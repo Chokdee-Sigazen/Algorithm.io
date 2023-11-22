@@ -39,7 +39,7 @@ const Quiz = () => {
   const [searchItem, setSearchItem] = useState("");
   const [filterItem, setFileterItem] = useState(Data);
 
-  const HandleSearchItem = (e) => {
+  const HandleSearchItem = (e: React.ChangeEvent<any>) => {
     const searchTarget = e.target.value;
     setSearchItem(searchTarget);
 

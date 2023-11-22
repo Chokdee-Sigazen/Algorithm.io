@@ -20,7 +20,7 @@ const Home = ({ data }: DataListType) => {
   const [searchItem, setSearchItem] = useState("");
   const [filterItem, setFileterItem] = useState(data);
 
-  const HandleSearchItem = (e) => {
+  const HandleSearchItem = (e: any) => {
     const searchTarget = e.target.value;
     setSearchItem(searchTarget);
 
