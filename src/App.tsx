@@ -2,11 +2,11 @@ import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./component/TopBar";
 import Footer from "./component/Footer";
-import AnimatorRoute from "./component/AnimatorRoute";
+import AnimatorRoute from "./AnimatorRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <NavBar />
       <main>
         <AnimatorRoute />
