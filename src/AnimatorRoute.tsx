@@ -7,8 +7,8 @@ const AnimatorRoute = () => {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/Algorithm.io/" element={<HomePage />} />
-        <Route path="/Algorithm.io/quiz" element={<Quiz />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </AnimatePresence>
   );
