@@ -2263,6 +2263,11 @@ stack-trace@0.0.x:
   resolved "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz"
   integrity sha512-KGzahc7puUKkzyMt+IqAep+TVNbKP+k2Lmwhub39m1AsTSkaDutx56aDCo+HLDzf/D26BIHTJWNiTG1KAJiQCg==
 
+stat@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/stat/-/stat-0.0.5.tgz"
+  integrity sha512-/hgTeM6B+4Pp9o+6tGeaJbSvOZyel5LMe1xvIyHN37AvhVp9Vqv+NUnQNGWrrXBgAUM+84V3PYpWxNdRsq0Hzw==
+
 string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz"

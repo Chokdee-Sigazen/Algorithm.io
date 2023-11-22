@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-scroll-parallax": "^3.4.3",
     "redux": "^4.2.1",
+    "stat": "^0.0.5",
     "tw-elements-react": "^1.0.0-alpha2",
     "video-react": "^0.16.0"
   },
