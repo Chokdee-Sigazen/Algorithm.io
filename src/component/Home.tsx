@@ -79,7 +79,7 @@ const Home = ({ data }: DataListType) => {
           whileHover={{ scale: 1.1 }}
           className="flex items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent"
         >
-          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/left.png')]"></div>
+          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-center w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/left.png')]"></div>
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.05 }}
@@ -91,7 +91,7 @@ const Home = ({ data }: DataListType) => {
           }}
           className=" flex items-end h-[80%] w-[45%] bg-gradient-to-b from-[#00E4EE] to-transparent"
         >
-          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/middle.png')]"></div>
+          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-top w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/middle.png')]"></div>
         </motion.div>
         <motion.div
           onHoverStart={() => {
@@ -103,7 +103,7 @@ const Home = ({ data }: DataListType) => {
           whileHover={{ scale: 1.1 }}
           className="flex items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent"
         >
-          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/right.png')]"></div>
+          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-top w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/right.png')]"></div>
         </motion.div>
       </div>
       <div className=" h-12 w-3/4 mx-auto rounded-3xl my-7">
