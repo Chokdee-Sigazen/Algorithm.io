@@ -26,7 +26,9 @@ const Ploblem = ({ name, done, tags }: DataPloblem) => {
                 : "bg-[#00ADB5] hover:bg-[#63f0f7]"
             }`}
           ></div>
-          <div className=" mt-3 ml-3 font-mono font-bold text-2xl">{name}</div>
+          <div className=" mt-3 ml-3 font-mono font-bold md:text-2xl text-xl">
+            {name}
+          </div>
         </div>
         <div className="h-[40%]"></div>
         <div className="flex mx-4">

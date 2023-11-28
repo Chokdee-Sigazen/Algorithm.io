@@ -55,10 +55,13 @@ const Quiz = () => {
         <div className=" h-10"></div>
         <div className="group transition-colors w-[80%] h-72 mx-auto my-3 bg-[#0E121B] rounded-xl hover:bg-[#171d2c]">
           <div className="h-6"></div>
-          <span className=" font-mono text-white sm:text-4xl text-2xl  sm:ml-10 ml-4">
+          <span className=" font-mono text-white text-4xl ml-10 ">
             "Solve"
-            <span className=" ml-2 font-mono sm:text-2xl text-lg font-bold">
+            <span className=" ml-2 font-mono sm:text-2xl text-lg font-bold hidden md:inline-block">
               custom quiz by community
+            </span>
+            <span className=" ml-2 font-mono sm:text-2xl text-lg font-bold inline-block md:hidden">
+              Problems
             </span>
           </span>
           <div className="my-5 transition-colors bg-slate-950 w-[80%] h-12 ml-10 rounded-2xl overflow-hidden flex group-hover:bg-zinc-800">

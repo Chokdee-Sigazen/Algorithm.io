@@ -47,12 +47,12 @@ const Home = ({ data }: DataListType) => {
           </div>
         </div>
         <div
-          className={` transition-[opacity] duration-500 z-10 absolute top-0 left-[25%] text-center  h-[17%] w-[49%]  ${
+          className={` transition-[opacity] duration-500 z-10 absolute top-0 md:left-[25%] left-0 text-center  h-[17%] md:w-[49%] w-full  ${
             stateMiddle ? " opacity-95" : " opacity-0"
           }`}
         >
           <div className="flex h-full w-full ">
-            <span className="md:text-2xl md:w-auto font-mono my-auto font-bold mx-auto text-lg">
+            <span className="md:text-2xl md:w-auto font-mono my-auto font-bold mx-auto text-2xl">
               "Welcome to Algorithm.io"
             </span>
           </div>
@@ -77,7 +77,7 @@ const Home = ({ data }: DataListType) => {
             setStateLeft(0);
           }}
           whileHover={{ scale: 1.1 }}
-          className="flex items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent"
+          className="  md:flex items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent hidden"
         >
           <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-center w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/left.png')]"></div>
         </motion.div>
@@ -89,9 +89,9 @@ const Home = ({ data }: DataListType) => {
           onHoverEnd={() => {
             setStateMiddle(0);
           }}
-          className=" flex items-end h-[80%] w-[45%] bg-gradient-to-b from-[#00E4EE] to-transparent"
+          className="md:w-[45%] flex items-end h-[80%] w-[100%] bg-gradient-to-b from-[#00E4EE] to-transparent"
         >
-          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-top w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/middle.png')]"></div>
+          <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-top w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/middle.png')] "></div>
         </motion.div>
         <motion.div
           onHoverStart={() => {
@@ -101,7 +101,7 @@ const Home = ({ data }: DataListType) => {
             setStateRight(0);
           }}
           whileHover={{ scale: 1.1 }}
-          className="flex items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent"
+          className="md:flex hidden items-end h-full w-[25%] bg-gradient-to-b from-[#00ADB5] to-transparent"
         >
           <div className=" transition-opacity hover:opacity-[100%] opacity-[92%] bg-no-repeat bg-top w-[98%] mx-auto h-[98%] bg-cover bg-[url('/pic/right.png')]"></div>
         </motion.div>
