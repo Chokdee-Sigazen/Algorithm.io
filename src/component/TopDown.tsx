@@ -21,12 +21,14 @@ function TopDown({ name, info, video }: Props) {
               return 1;
             })
           }
-          className="transition-opacity duration-200 ease-out opacity-80 hover:opacity-100 mx-auto rounded-3xl min-h-10 h-14 bg-zinc-800 w-full"
+          className=" transition-opacity duration-200 ease-out opacity-80 hover:opacity-100 mx-auto rounded-3xl min-h-10 h-14 bg-zinc-800 w-full"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <span className=" font-mono font-bold ">{name}</span>
-          <span className=" font-mono font-bold text-gray-500">{info}</span>
+          <span className="  font-mono font-bold ">{name}</span>
+          <span className=" sm:visible md:contents hidden  font-mono font-bold text-gray-500">
+            {info}
+          </span>
         </motion.button>
         <div
           id="Scroll"

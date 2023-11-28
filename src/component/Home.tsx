@@ -36,25 +36,23 @@ const Home = ({ data }: DataListType) => {
       <div className=""></div>
       <div className=" relative z-20 w-[80%]  h-[65vh] mx-auto mb-6 flex justify-between items-end">
         <div
-          className={` transition-[opacity] duration-500 z-10 absolute top-0 left-[26%] h-[17%] w-[48%]  ${
+          className={` transition-[opacity] duration-500 z-10 absolute top-0 text-center left-[26%] h-[17%] w-[48%]  ${
             stateLeft ? " opacity-95" : " opacity-0"
           }`}
         >
           <div className="flex h-full w-full ">
-            <span className=" font-mono my-auto font-bold mx-auto text-3xl">
-              {" "}
+            <span className=" md:text-2xl md:w-auto font-mono my-auto font-bold mx-auto text-lg">
               "Start coding today"
             </span>
           </div>
         </div>
         <div
-          className={` transition-[opacity] duration-500 z-10 absolute top-0 left-[26%] h-[17%] w-[48%]  ${
+          className={` transition-[opacity] duration-500 z-10 absolute top-0 left-[25%] text-center  h-[17%] w-[49%]  ${
             stateMiddle ? " opacity-95" : " opacity-0"
           }`}
         >
           <div className="flex h-full w-full ">
-            <span className=" font-mono my-auto font-bold mx-auto text-3xl">
-              {" "}
+            <span className="md:text-2xl md:w-auto font-mono my-auto font-bold mx-auto text-lg">
               "Welcome to Algorithm.io"
             </span>
           </div>
@@ -65,8 +63,7 @@ const Home = ({ data }: DataListType) => {
           }`}
         >
           <div className="flex h-full w-full ">
-            <span className=" font-mono my-auto font-bold mx-auto text-3xl">
-              {" "}
+            <span className="md:text-2xl md:w-auto font-mono my-auto text-center font-bold mx-auto text-lg">
               "Solve basic problems"
             </span>
           </div>
