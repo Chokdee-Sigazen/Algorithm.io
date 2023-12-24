@@ -48,15 +48,16 @@ const Quiz = () => {
     );
     setFileterItem(FilterHandler);
   };
+  const progress = 33;
 
   return (
     <motion.div>
       <div className=" min-h-screen h-auto bg-gradient-to-b from-zinc-800 to-neutral-950 ">
         <div className=" h-10"></div>
-        <div className="group transition-colors w-[80%] h-72 mx-auto my-3 bg-[#0E121B] rounded-xl hover:bg-[#171d2c]">
+        <div className="transition-colors w-[80%] h-72 mx-auto my-3 bg-[#0E121B] rounded-xl ">
           <div className="h-6"></div>
           <span className=" font-mono text-white text-4xl ml-10 ">
-            "Solve"
+            "Solve
             <span className=" ml-2 font-mono sm:text-2xl text-lg font-bold hidden md:inline-block">
               custom quiz by community
             </span>
@@ -64,10 +65,11 @@ const Quiz = () => {
               Problems
             </span>
           </span>
-          <div className="my-5 transition-colors bg-slate-950 w-[80%] h-12 ml-10 rounded-2xl overflow-hidden flex group-hover:bg-zinc-800">
-            <div className=" bg-[#00ADB5] min-h-full w-[33%] transition-colors rounded-2xl group-hover:bg-[#41f6ff]"></div>
+          <div className="group my-5 transition-colors bg-slate-950 w-[80%] h-12 ml-10 rounded-2xl overflow-hidden flex ">
+            <motion.div
+              className={`bg-[#00ADB5] min-h-full w-[${progress}%] transition-colors rounded-2xl group-hover:bg-[#41f6ff]`}
+            ></motion.div>
             <div className=" text-[#00ADB5] transition-colors text-lg mx-2 font-mono font-bold self-center group-hover:text-[#41f6ff]">
-              {" "}
               16.67%
             </div>
           </div>
