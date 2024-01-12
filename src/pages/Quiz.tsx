@@ -67,7 +67,7 @@ const Quiz = () => {
           </span>
           <div className="group my-5 transition-colors bg-slate-950 w-[80%] h-12 ml-10 rounded-2xl overflow-hidden flex ">
             <motion.div
-              className={`bg-[#00ADB5] min-h-full w-[${progress}%] transition-colors rounded-2xl group-hover:bg-[#41f6ff]`}
+              className={`bg-[#00ADB5] min-h-full min-w-[33%] transition-colors rounded-2xl group-hover:bg-[#41f6ff]`}
             ></motion.div>
             <div className=" text-[#00ADB5] transition-colors text-lg mx-2 font-mono font-bold self-center group-hover:text-[#41f6ff]">
               16.67%
