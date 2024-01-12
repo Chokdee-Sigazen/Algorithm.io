@@ -48,7 +48,6 @@ const Quiz = () => {
     );
     setFileterItem(FilterHandler);
   };
-  const progress = 33;
 
   return (
     <motion.div>
